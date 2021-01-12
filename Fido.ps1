@@ -7,7 +7,7 @@
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation, either version 3 of the License, or
 # (at your option) any later version.
-#
+
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
@@ -83,56 +83,56 @@ $WindowsVersions = @(
 			"20H2 (Build 19042.508 - 2020.10)",
 			@("Windows 10 Home/Pro", 1807),
 			@("Windows 10 Education", 1805),
-			@("Windows 10 Home China ", ($zh + 1806))
+			@("Windows 10 Home China ", 1806)
 		),
 		@(
 			"20H1 (Build 19041.264 - 2020.05)",
 			@("Windows 10 Home/Pro", 1626),
 			@("Windows 10 Education", 1625),
-			@("Windows 10 Home China ", ($zh + 1627))
+			@("Windows 10 Home China ", 1627)
 		),
 		@(
 			"19H2 (Build 18363.418 - 2019.11)",
 			@("Windows 10 Home/Pro", 1429),
 			@("Windows 10 Education", 1431),
-			@("Windows 10 Home China ", ($zh + 1430))
+			@("Windows 10 Home China ", 1430)
 		),
 		@(
 			"19H1 (Build 18362.356 - 2019.09)",
 			@("Windows 10 Home/Pro", 1384),
 			@("Windows 10 Education", 1386),
-			@("Windows 10 Home China ", ($zh + 1385))
+			@("Windows 10 Home China ", 1385)
 		),
 		@(
 			"19H1 (Build 18362.30 - 2019.05)",
 			@("Windows 10 Home/Pro", 1214),
 			@("Windows 10 Education", 1216),
-			@("Windows 10 Home China ", ($zh + 1215))
+			@("Windows 10 Home China ", 1215)
 		),
 		@(
 			"1809 R2 (Build 17763.107 - 2018.10)",
 			@("Windows 10 Home/Pro", 1060),
 			@("Windows 10 Education", 1056),
-			@("Windows 10 Home China ", ($zh + 1061))
+			@("Windows 10 Home China ", 1061)
 		),
 		@(
 			"1809 R1 (Build 17763.1 - 2018.09)",
 			@("Windows 10 Home/Pro", 1019),
 			@("Windows 10 Education", 1021),
-			@("Windows 10 Home China ", ($zh + 1020))
+			@("Windows 10 Home China ", 1020)
 		),
 		@(
 			"1803 (Build 17134.1 - 2018.04)",
 			@("Windows 10 Home/Pro", 651),
 			@("Windows 10 Education", 655),
 			@("Windows 10 1803", 637),
-			@("Windows 10 Home China", ($zh + 652))
+			@("Windows 10 Home China", 652)
 		),
 		@(
 			"1709 (Build 16299.15 - 2017.09)",
 			@("Windows 10 Home/Pro", 484),
 			@("Windows 10 Education", 488),
-			@("Windows 10 Home China", ($zh + 485))
+			@("Windows 10 Home China", 485)
 		),
 		@(
 			"1703 [Redstone 2] (Build 15063.0 - 2017.03)",
@@ -141,7 +141,7 @@ $WindowsVersions = @(
 			@("Windows 10 Single Language", 363),
 			@("Windows 10 Education", 423),
 			@("Windows 10 Education N", 424),
-			@("Windows 10 Home China", ($zh + 364))
+			@("Windows 10 Home China", 364)
 		),
 		@(
 			"1607 [Redstone 1] (Build 14393.0 - 2016.07)",
@@ -150,7 +150,7 @@ $WindowsVersions = @(
 			@("Windows 10 Single Language", 246),
 			@("Windows 10 Education", 242),
 			@("Windows 10 Education N", 243),
-			@("Windows 10 China Get Genuine", ($zh + 247))
+			@("Windows 10 China Get Genuine", 247)
 		),
 		@(
 			"1511 R3 [Threshold 2] (Build 10586.164 - 2016.04)",
@@ -159,9 +159,9 @@ $WindowsVersions = @(
 			@("Windows 10 Single Language", 184),
 			@("Windows 10 Education", 179),
 			@("Windows 10 Education N", 181),
-			@("Windows 10 KN", ($ko + 182)),
-			@("Windows 10 Education KN", ($ko + 180)),
-			@("Windows 10 China Get Genuine", ($zh + 185))
+			@("Windows 10 KN", 182),
+			@("Windows 10 Education KN", 180),
+			@("Windows 10 China Get Genuine", 185)
 		),
 		@(
 			"1511 R2 [Threshold 2] (Build 10586.104 - 2016.02)",
@@ -170,9 +170,9 @@ $WindowsVersions = @(
 			@("Windows 10 Single Language", 116),
 			@("Windows 10 Education", 110),
 			@("Windows 10 Education N", 112),
-			@("Windows 10 KN", ($ko + 114)),
-			@("Windows 10 Education KN", ($ko + 111)),
-			@("Windows 10 China Get Genuine", ($zh + 113))
+			@("Windows 10 KN", 114),
+			@("Windows 10 Education KN", 111),
+			@("Windows 10 China Get Genuine", 113)
 		),
 		@(
 			"1511 R1 [Threshold 2] (Build 10586.0 - 2015.11)",
@@ -181,9 +181,9 @@ $WindowsVersions = @(
 			@("Windows 10 Single Language", 106),
 			@("Windows 10 Education", 100),
 			@("Windows 10 Education N", 102),
-			@("Windows 10 KN", ($ko + 104)),
-			@("Windows 10 Education KN", ($ko + 101)),
-			@("Windows 10 China Get Genuine", ($zh + 103))
+			@("Windows 10 KN", 104),
+			@("Windows 10 Education KN", 101),
+			@("Windows 10 China Get Genuine", (103)
 		),
 		@(
 			"1507 [Threshold 1] (Build 10240.16384 - 2015.07)",
@@ -192,9 +192,9 @@ $WindowsVersions = @(
 			@("Windows 10 Single Language", 82),
 			@("Windows 10 Education", 75)
 			@("Windows 10 Education N", 77),
-			@("Windows 10 KN", ($ko + 80)),
-			@("Windows 10 Education KN", ($ko + 76)),
-			@("Windows 10 China Get Genuine", ($zh + 78))
+			@("Windows 10 KN", 80),
+			@("Windows 10 Education KN", 76),
+			@("Windows 10 China Get Genuine", 78)
 		)
 	),
 	@(
@@ -204,8 +204,8 @@ $WindowsVersions = @(
 			@("Windows 8.1", 52),
 			@("Windows 8.1 N", 55)
 			@("Windows 8.1 Single Language", 48),
-			@("Windows 8.1 K", ($ko + 61)),
-			@("Windows 8.1 KN", ($ko + 62))
+			@("Windows 8.1 K", 61),
+			@("Windows 8.1 KN", 62)
 		)
 	)
 )
