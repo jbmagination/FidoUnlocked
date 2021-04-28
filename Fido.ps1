@@ -83,7 +83,7 @@ $WindowsVersions = @(
 			"20H2 (Build 19042.631 - 2020.12)",
 			@("Windows 10 Home/Pro", 1882),
 			@("Windows 10 Education", 1884),
-			@("Windows 10 Home China ", ($zh + 1883))
+			@("Windows 10 Home China ", 1883)
 		),
 		@(
 			"20H2 (Build 19042.508 - 2020.10)",
