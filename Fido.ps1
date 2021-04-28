@@ -1,6 +1,6 @@
 ﻿#
-# Fido v1.17 - Retail Windows ISO Downloader
-# Copyright © 2019-2020 Pete Batard <pete@akeo.ie>
+# Fido v1.18 - Retail Windows ISO Downloader
+# Copyright © 2019-2021 Pete Batard <pete@akeo.ie>
 # ConvertTo-ImageSource: Copyright © 2016 Chris Carter
 #
 # This program is free software: you can redistribute it and/or modify
@@ -79,6 +79,12 @@ $ko = 0x20000
 $WindowsVersions = @(
 	@(
 		@("Windows 10", "Windows10ISO"),
+		@(
+			"20H2 (Build 19042.631 - 2020.12)",
+			@("Windows 10 Home/Pro", 1882),
+			@("Windows 10 Education", 1884),
+			@("Windows 10 Home China ", ($zh + 1883))
+		),
 		@(
 			"20H2 (Build 19042.508 - 2020.10)",
 			@("Windows 10 Home/Pro", 1807),
